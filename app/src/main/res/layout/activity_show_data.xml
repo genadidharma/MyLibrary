@@ -22,7 +22,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/showLayout"
-        android:background="@{user.color}"
         android:orientation="vertical"
         tools:context=".ShowDataActivity">
 
@@ -34,8 +33,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textStyle="bold|italic"
-                android:entries="@{booklist.list}"/>
+                android:textStyle="bold|italic" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
